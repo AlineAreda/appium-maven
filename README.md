@@ -1,7 +1,7 @@
 ## appium-maven
 Exemplo automação de testes mobile com Appium e Maven
 
-### O que preciso Ter Configurado para Rodar o Projeto ##
+### O que preciso ter Configurado para Rodar o Projeto ##
 
 - Appium Server
 - Android Home 
