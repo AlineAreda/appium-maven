@@ -27,7 +27,5 @@ Configurar antes os parâmetros do Browserstack. Depois de configurado, rodar os
 - Android: 
 mvn test -Dlocal=devicefarm -Dplatform=android
 
-- IOS:
-mvn test -Dlocal=devicefarm -Dplatform=ios
 
 
