@@ -26,7 +26,7 @@ public class TesteLogin {
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
         if(plataforma.equals("android")){
-            capabilities.setCapability("app", "src/apps/app-debug.apk");
+            capabilities.setCapability("app", "apps/app-debug.apk");
             capabilities.setCapability("deviceName", "Emulator");
             capabilities.setCapability("platformName", "Android");
             capabilities.setCapability("udid", "emulator-5554");
@@ -35,7 +35,7 @@ public class TesteLogin {
             ScreenLogin = new ScreenLogin(driver);
 
         }else{
-            capabilities.setCapability("app", "src/apps/LoginExample.app");
+            capabilities.setCapability("app", "apps/LoginExample.app");
             capabilities.setCapability("deviceName", "iPhone 13");
             capabilities.setCapability("platformName", "iOS");
             capabilities.setCapability("platformVersion", "15.0");
