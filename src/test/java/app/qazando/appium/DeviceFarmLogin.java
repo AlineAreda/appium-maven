@@ -21,11 +21,11 @@ public class DeviceFarmLogin {
 
         DesiredCapabilities caps = new DesiredCapabilities();
 
-        // Set your access credentials
+
         caps.setCapability("browserstack.user", "alineareda_agU6bA");
         caps.setCapability("browserstack.key", "pn673o58bgpM6xc2xzWK");
 
-        // Set URL of the application under test
+
         caps.setCapability("app", "bs://6b21bd09eef8edfa5c56bf9b283e1bbc8839c92d");
 
 
