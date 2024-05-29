@@ -26,7 +26,7 @@ public class DeviceFarmLogin {
         caps.setCapability("browserstack.key", "");
 
 
-        caps.setCapability("app", "bs://6b21bd09eef8edfa5c56bf9b283e1bbc8839c92d");
+        caps.setCapability("app", "");
 
 
         driver = new AndroidDriver(new URL("http://hub.browserstack.com/wd/hub"), caps);
