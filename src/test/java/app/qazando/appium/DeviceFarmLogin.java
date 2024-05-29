@@ -22,8 +22,8 @@ public class DeviceFarmLogin {
         DesiredCapabilities caps = new DesiredCapabilities();
 
 
-        caps.setCapability("browserstack.user", "alineareda_agU6bA");
-        caps.setCapability("browserstack.key", "pn673o58bgpM6xc2xzWK");
+        caps.setCapability("browserstack.user", "");
+        caps.setCapability("browserstack.key", "");
 
 
         caps.setCapability("app", "bs://6b21bd09eef8edfa5c56bf9b283e1bbc8839c92d");
